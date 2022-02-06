@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323:ital,wght@0,400;0,900;1,700&display=swap");
+
+@font-face {
+  font-family: 'PixelCowboy';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PixelCowboy'), url('../fonts/PixelCowboy.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'HelloVetica';
+  font-style: normal;
+  font-weight: normal;
+  src: local('HelloVetica'), url('../fonts/hellovetica.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'PixelSix';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PixelSix'), url('../fonts/pixelsix00.ttf') format('truetype');
+}
+.burger .icon {
+    background: url('../images/borg.png')no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+    display: block;
+    /* Other styles here */
+}
+h1 { /*class?*/
+      font-family: 'PixelCowboy', sans-serif;
+      font-style: italic;
+      font-weight:100;
+}
+
+body {
+      font-family: 'PixelSix', sans-serif;
+}
