@@ -31,24 +31,12 @@ html {
   scroll-behavior: smooth;
 }
 
-.layered-wave {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.layered-wave svg {
-  position: relative;
-  display: block;
-  width: calc(140% + 1.3px);
-  height: 155px;
-}
-
-.layered-wave .shape-fill {
-    fill: #737686;
+.content {
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+  /*TEMP REMOVE WHEN READY*/ 
+  border: 1px solid #e026a8;
 }
 
 .hero {
@@ -56,7 +44,6 @@ html {
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
-  max-width: 65rem;
   margin: 2rem;
 }
 
@@ -73,6 +60,7 @@ html {
   width:  25rem;
   padding: 0.6rem;
   border-radius: 5px;
+  color: var(--secondary-colour);
   /*box-shadow: 0px 2px 15px 2px var(--secondary-colour);*/
 }
 .bio h1 {
@@ -168,6 +156,7 @@ nav h1 a:hover{
   color: var(--primary-colour);
   border-bottom: 2px solid var(--secondary-colour);
 }
+
 
 
 /* BODY */
