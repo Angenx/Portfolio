@@ -54,6 +54,7 @@ html {
 .hero img{
   height: 28rem;
   width: 28rem;
+  border-radius: 15px;
 }
 
 .bio {
@@ -89,6 +90,10 @@ html {
   background-color: transparent;
   cursor: pointer;
   display: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* CSS Resets */
