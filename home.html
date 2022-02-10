@@ -59,7 +59,55 @@
                 </div>
             </section>
         </div>
-
+        <div class="content">
+            <section class="contact" id="contact">
+                <h2>send me a message!</h2>
+                <div class="contact-container">
+                    <form action="https://formspree.io/f/mayveroo" method="POST">
+                        <div class="form-control">
+                            <label for="name">Your Name:</label>
+                                <input 
+                                    type="name" 
+                                    id="name"
+                                    name="sender-name"
+                                    placeholder="name goes here"
+                                    class="input-field"
+                                    required
+                                />
+                        </div>
+                        <div class="form-control">
+                            <label for="email">Your email:</label>
+                                <input 
+                                    type="email" 
+                                    id="email"
+                                    name="sender-email"
+                                    placeholder="email goes here"
+                                    class="input-field"
+                                    required
+                                />
+                        </div>
+                        <div class="form-control">
+                            <label for="message">Your Message:</label>
+                                <textarea
+                                id="message"
+                                cols="60"
+                                rows="10"
+                                placeholder="type your message here"
+                                name="message"
+                                class="input-field"
+                                required
+                                ></textarea>
+                        </div>
+                            <input 
+                                type="submit" 
+                                id="submit-button"
+                                class="submit-button"
+                                value="Submit"
+                            />
+                    </form>
+                </div>
+            </section>
+        </div>
         <script src="assets/js/app.js" async defer></script>
 
         <!-- Ion icons scripts -->
